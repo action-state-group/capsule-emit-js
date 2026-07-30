@@ -1,0 +1,12 @@
+{
+  "name": "agent-action-capsule",
+  "version": "0.1.0",
+  "description": "Stub package — see @agentactioncapsule/emit for the library",
+  "main": "index.js",
+  "files": ["index.js"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/action-state-group/capsule-emit-js.git"
+  },
+  "license": "Apache-2.0"
+}

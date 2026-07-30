@@ -8,7 +8,6 @@ import {
   UnsafeIntegerError,
   MAX_SAFE_INTEGER,
   computeCapsuleId,
-  isHex64 as _isHex64,
 } from './canonical.js';
 import {
   NEVER_DISPATCH_VERDICT_CLASSES,

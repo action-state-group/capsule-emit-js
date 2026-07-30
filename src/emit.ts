@@ -195,7 +195,7 @@ export function emit(opts: EmitOptions = {}): Capsule {
   if (effectRecord) body['effect'] = effectRecord;
   body['assurance'] = assurance;
   if (disposition) body['disposition'] = disposition;
-  if (constraints.length > 0) body['constraints'] = constraints.map(c => _omitNulls(c as Record<string, unknown>));
+  if (constraints.length > 0) body['constraints'] = constraints.map(c => _omitNulls(c as unknown as Record<string, unknown>));
   if (chain) body['chain'] = chain;
 
   // Compute capsule_id and seal.

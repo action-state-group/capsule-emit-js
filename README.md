@@ -1,5 +1,11 @@
 # capsule-emit-js
 
+> **Deprecated.** This package implements draft -02 of the Agent Action Capsule profile
+> (format 2, `jcs-n`) and is no longer maintained. Use
+> [capsule-emit-ts](https://github.com/action-state-group/capsule-emit-ts)
+> (`@action-state-group/capsule-emit`), which implements format 4 and the current
+> `draft-mih-scitt-agent-action-capsule-05` wire. Existing releases stay published.
+
 Spec-pure JavaScript/TypeScript port of the
 [Agent Action Capsule](https://github.com/action-state-group/agent-action-capsule)
 canonicalization, emission, and verification core.
